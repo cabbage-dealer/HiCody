@@ -1,19 +1,41 @@
 <style>
 /* centers form*/
 	form {
-	margin: 0 auto;
-	width: 400px;
 	padding: 1em;
-	border: 1px slid #CCC;
+	border: 1px solid powderblue;
 	border-radius: 1em;
+	background-color: #4CAF50
+}
+	button {
+		float: right;
+		background-color: blue;
+		color: white;
+		padding: 0;
+		border: none;
+		background: none
+
+}
+	input {
+		background-color: #4CAF50;
+		padding: 0;
+		border: none;
+		background: none
+		color: white;
+}
+	textarea {
+	margin: 0 auto;
+	padding: 1em;
+	border: 1px solid powderblue;
+	border-radius: 1em;
+	vertical-align: top;
+	background-color: green;
 }
 </style>
 <form>
-    <input type="text" name="message" value="Type a message..."</input>
+    <input type="text" name="message" placeholder="Type a message..."</input>
 	<button type="submit" name="submitted" >Post Message</button>
 	
 </form>
 
- <textarea name="message" >
-The cat was playing in the garden.
+<textarea name="posted" >
 </textarea>
