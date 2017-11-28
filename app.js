@@ -1,7 +1,11 @@
 var messagesRef=firebase.database().ref().child("messages"); //create new ref to a location folder named messages
 
 messagesRef.on("child_added", snap => {
-	alert(snap.val());
+	//alert(snap.val());
+	var data = snap.child("messages").val();
+
+	$("#divider").append("<p>" + data + "</p>");
+	console.log($("#divider").append("<p>" + data + "</p>"));
 });
 
 function post() {
