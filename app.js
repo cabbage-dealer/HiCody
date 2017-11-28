@@ -1,9 +1,13 @@
+var messagesRef=firebase.database().ref().child("messages"); //create new ref to a location folder named messages
+
+messagesRef.on("child_added", snap => {
+	alert(snap.val());
+});
 
 function post() {
 	var userInput=document.getElementById("userInput").value;
 		console.log(userInput);
 
-	var messagesRef=firebase.database().ref().child("messages"); //create new ref to a location folder named messages
 	messagesRef.push().set(userInput); //create a new message in my firebase
 
 	var node=document.createElement("p");
@@ -13,4 +17,5 @@ function post() {
 
 	document.getElementById("form").reset();
 }
+
 
