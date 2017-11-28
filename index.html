@@ -1,5 +1,6 @@
+<script src="app.js"></script>
+
 <style>
-/* centers form*/
 	form {
 	padding: 1em;
 	border: 1px solid powderblue;
@@ -13,7 +14,6 @@
 		padding: 0;
 		border: none;
 		background: none
-
 }
 	input {
 		background-color: #4CAF50;
@@ -22,20 +22,13 @@
 		background: none
 		color: white;
 }
-	textarea {
-	margin: 0 auto;
-	padding: 1em;
-	border: 1px solid powderblue;
-	border-radius: 1em;
-	vertical-align: top;
-	background-color: green;
-}
 </style>
-<form>
-    <input type="text" name="message" placeholder="Type a message..."</input>
-	<button type="submit" name="submitted" >Post Message</button>
+
+<form id="form" action="#">
+    <input type="text" id="userInput" name="message" placeholder="Type a message..."</input>
+    <button onclick="post()" type="submit" id="submitted" >Post Message</button>
 	
 </form>
-
-<textarea name="posted" >
-</textarea>
+   
+<div id="divider">
+</div>
