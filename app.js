@@ -1,3 +1,5 @@
+//<link rel="stylesheet" type="text/css" href="./style.css"/>
+
 var messagesRef=firebase.database().ref().child("messages"); //create new ref to a location folder named messages
 
 messagesRef.on("child_added", snap => {
