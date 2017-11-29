@@ -10,17 +10,19 @@ messagesRef.on("child_added", snap => {
 });
 
 function post() {
-	var userInput=document.getElementById("userInput").value; //gets value of user's input
-		
+  
+	var userInput1=document.getElementById("userInput").value; //gets value of user's input
 
-	messagesRef.push().set(userInput); //create a new message in my firebase
-
+	if (/\S/.test(userInput1)) {
+	
+	messagesRef.push().set(userInput1); //create a new message in my firebase
+}
 	//var node=document.createElement("p");
 	//var textnode=document.createTextNode(userInput);
 	//node.appendChild(textnode);
 	//document.getElementById("divider").appendChild(node);
-
 	document.getElementById("form").reset();
+
 }
 
 
