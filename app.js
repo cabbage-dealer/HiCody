@@ -15,8 +15,9 @@ function post() {
 
 	if (/\S/.test(userInput1)) {
 	
-	messagesRef.push().set(userInput1); //create a new message in my firebase
-}
+		messagesRef.push().set(userInput1); //create a new message in my firebase
+	}
+	
 	document.getElementById("form").reset();
 }
 
