@@ -8,6 +8,7 @@
 }
 	button {
 		background-color: #4169E1;
+		border-radius: 3px;
 		color: white;
 		border: none;
 		background: none;
@@ -19,12 +20,14 @@
     	background-color: #1f49c7;
 }
 	input {
-		background-color: #4CAF50;
+		outline: none;
 		padding: 0;
 		border: none;
 		background: none;
 		color: white;
 		font-size: 18px;
+		padding: 5px 5px;
+		width: 600px;
 }
 	input::placeholder {
 		color: white;
