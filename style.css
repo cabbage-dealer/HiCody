@@ -50,9 +50,10 @@
 		
 		border-radius:15px;
 		padding: 10px 10px;
-		width: 97%;
-		margin-right: auto;
-		margin-left: auto;
+		
+		width: fit-content;
+		margin-left: 10px;
+		margin-right: 10px;
 		border-color: black;
 		color: black;
 		background-color: #e9ebee;
