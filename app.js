@@ -17,12 +17,7 @@ function post() {
 	
 	messagesRef.push().set(userInput1); //create a new message in my firebase
 }
-	//var node=document.createElement("p");
-	//var textnode=document.createTextNode(userInput);
-	//node.appendChild(textnode);
-	//document.getElementById("divider").appendChild(node);
 	document.getElementById("form").reset();
-
 }
 
 

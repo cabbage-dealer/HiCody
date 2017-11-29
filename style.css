@@ -1,3 +1,8 @@
+	body {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+}
 	.form {
 		padding: 1em;
 		border: 1px solid black;
@@ -28,7 +33,7 @@
 		color: white;
 		font-size: 18px;
 		padding: 5px 5px;
-		width: 600px;
+		width: 700px;
 }
 	.enterMessage::placeholder {
 		color: white;
@@ -37,11 +42,14 @@
 
 }
 	.para {
-		border: solid;
-		border-radius:3px;
+		
+		border-radius:18px;
 		padding: 6px 6px;
-		width: 90%;
+		width: 97%;
 		margin-right: auto;
 		margin-left: auto;
+		border-color: black;
+		color: black;
+		background-color: #e9ebee;
 
 }
