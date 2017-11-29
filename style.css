@@ -1,4 +1,4 @@
-	form {
+	.form {
 		padding: 1em;
 		border: 1px solid black;
 		background-color: #4169E1;
@@ -6,7 +6,7 @@
 		display: flex;
 		justify-content: space-between;
 }
-	button {
+	.postMessage {
 		background-color: #4169E1;
 		border-radius: 3px;
 		color: white;
@@ -16,10 +16,10 @@
 		cursor: pointer;
 		padding: 20px 20px;	
 }
-	button:hover {
+	.postMessage:hover {
     	background-color: #1f49c7;
 }
-	input {
+	.enterMessage {
 		outline: none;
 		padding: 0;
 		border: none;
@@ -29,12 +29,14 @@
 		padding: 5px 5px;
 		width: 600px;
 }
-	input::placeholder {
+	.enterMessage::placeholder {
 		color: white;
 }	
-	div {
-		color: black;
-		border: 1px;
-		border-color: black;
-
+	.textArea {
+		
+}
+	.para {
+	border: solid;
+	border-radius:3px;
+	padding: 6px 6px;
 }
