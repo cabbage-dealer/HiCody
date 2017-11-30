@@ -1,6 +1,6 @@
 	body {
 		margin: 0;
-		padding: 0;
+		margin-top: 108px;
 		background-color: white;
 		font-family: 'Lato', sans-serif;
 		
@@ -16,6 +16,8 @@
 		display: flex;
 		justify-content: flex-start;
 		box-shadow: 1px 1px 1px #9aa3b1;
+		position: fixed;
+		top:0;
 }
 	.logo {
 		width: 4%;
