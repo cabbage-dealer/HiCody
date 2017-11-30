@@ -20,6 +20,7 @@
 	.logo {
 		width: 4%;
 		margin-left: 10px;
+		cursor: pointer;
 	}
 	.postButton {
 		background-color: #4169E1;
