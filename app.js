@@ -5,7 +5,7 @@ var messagesRef=firebase.database().ref().child("messages"); //create new ref to
 messagesRef.on("child_added", snap => { //goes to the children of where ref is and snaps
 	
 	var data = snap.val(); //sets the value of the messages into variable data
-	$("#divider").append("<p class='para'>"+data+"</p>"); //puts the val from data into <div>
+	$("#divider").prepend("<p class='para'>"+data+"</p>"); //puts the val from data into <div>
 	
 });
 
